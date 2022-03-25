@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;margin: 0;padding: 0%;
+}
+
+.no{
+    background-color:rgb(204, 51, 51);
+}
+
+.ear{
+    background-color: #000;
+    width: 90px;
+    height: 120px;
+    border-radius: 50%;
+    position:absolute;
+    left: 50%;
+    top: 100px;
+    
+}
+
+.ear.left{
+    margin-left: -125px;
+    transform: rotate(20deg);
+}
+.ear.right{
+    margin-left: 35px;
+    transform: rotate(-20deg);
+}
+
+.face{
+    background-color: black;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 170px;
+}
+
+.face .front{
+    border-radius: 50%;
+    background-color: white;
+    height: 120px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    z-index: 2;
+}
+
+.face .front.left{
+   margin-left: 20px;
+}
+
+.face .front.right{
+   margin-left: 70px;
+}
+
+.face .cheek{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px; 
+    top: 50px;
+}
+
+.cheek.left{
+    transform: rotate(-45deg);
+    border-right: 0;
+    border-bottom: 0;
+    top: 80px;
+    left: 40px;
+}
+.cheek.right{
+    transform: rotate(45deg);
+    border-left: 0;
+    border-bottom: 0;
+    top: 80px;
+    left: 130px;
+}
+
+.chin{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 50%;
+    margin-left: -30px;
+    top: 143px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border-bottom: 2px solid #000;
+    bottom: 0;
+}
+
+.eye{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 54px;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: 42px;
+    z-index: 2;
+}
+
+.eye.left{
+    transform: rotate(-5deg);
+    margin-left: -25px;
+}
+.eye.left .pupil1{
+    border-radius: 50%;
+    background-color: black;
+    height: 20px;
+    width: 11px;
+    position: absolute;
+    top: 30px;
+    margin-left: 2px;
+}
+
+.eye.right{
+    transform: rotate(5deg);
+    margin-left: 4px;
+}
+.eye.right .pupil2{
+    border-radius: 50%;
+    background-color: black;
+    height: 20px;
+    width: 11px;
+    position: absolute;
+    top: 30px;
+    margin-left: 2px;
+}
+
+.topnose{
+    border-radius: 50%;
+    width: 46px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    border-top: 3px solid #000;
+    background-color: #FFF;
+    margin-left: -23px;
+    z-index: 2;
+}
+
+.nose{
+    border-radius: 50%;
+    background-color: black;
+    width: 52px;
+    height: 28px;
+    position: absolute;
+    left: 50%;
+    margin-left: -26px;
+    top: 96px;
+    z-index: 2;
+}
+
+.lip{
+    width: 126px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    top: 68px;
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+    bottom: 70px;
+    border-radius: 50%;
+    margin-left: -63px;
+}
+
+.line{
+    width: 17px;
+    height: 8px; 
+    position: absolute;
+    left: 50%;
+    top: 108px; 
+    border-top: 2px solid #000;
+    border-radius: 50%;
+    
+}
+
+.line.left{
+    transform: rotate(-20deg);
+    margin-left: -70px;
+}
+.line.right{
+    transform: rotate(20deg);
+    margin-left: 51px;
+}
+
+.mouth{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 64px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    margin-left: -32px;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.mouth .tone1{
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    background-color: #F00;
+    border-radius: 50%;
+    margin-left: -40px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.mouth .tone2{
+    border-top: 5px solid #000;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    background-color: #F00;
+    border-radius: 50%;
+    margin-left: -8px;
+    z-index: 3;
+    overflow: hidden;
+}
